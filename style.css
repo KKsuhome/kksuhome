@@ -1,0 +1,1271 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff5ee;
+    color: #5b4037;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== МЕНЮ ===== */
+
+nav {
+    background-color: #f3e3d3;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0 0 18px 18px;
+}
+
+nav a {
+    display: inline-block;
+    color: #6b4935;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a87552;
+}
+
+/* ===== ЛОГОТИП ===== */
+
+header {
+    text-align: center;
+    padding: 25px 20px 10px;
+}
+
+header img {
+    width: 130px;
+    height: auto;
+}
+
+/* ===== ГОЛОВНА ===== */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background-color: #f3e3d3;
+    padding: 70px 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    color: #6b4935;
+    margin: 0 0 20px;
+}
+
+.hero-text p {
+    font-size: 22px;
+    color: #6b5142;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* ===== КНОПКА ===== */
+
+.button {
+    display: inline-block;
+    background-color: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    padding: 16px 35px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background-color: #6b4935;
+}
+
+/* ===== НИЖНЯ ЧАСТИНА ===== */
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #f3e3d3;
+    color: #6b4935;
+}
+
+/* ===== ТЕЛЕФОН ===== */
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .hero-text p {
+        font-size: 19px;
+    }
+}
+
+.category-icon {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+/* ===== СТОРІНКА СВІЧОК ===== */
+
+.candles-title {
+    text-align: center;
+    color: #6b4935;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+.category-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #fffaf5;
+    width: 280px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.product-card h2 {
+    color: #6b4935;
+    font-size: 22px;
+}
+
+.product-card p {
+    color: #6b5142;
+    line-height: 1.5;
+}
+
+.product-card .price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #6b4935;
+}
+
+.product-card button {
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #6b4935;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(107, 73, 53, 0.20);
+}
+
+/* ===== ГАЛЕРЕЯ ТОВАРУ ===== */
+
+.product-gallery {
+    width: 100%;
+    text-align: center;
+}
+
+.main-product-image {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.gallery-thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.gallery-thumbnails img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.gallery-thumbnails img:hover {
+    border-color: #8b5e3c;
+}
+
+/* ===== СТОРІНКА АКСЕСУАРІВ ===== */
+
+.accessories-title {
+    text-align: center;
+    color: #6b4935;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+/* ===== СТОРІНКА ПОДАРУНКІВ ===== */
+
+.gifts-title {
+    text-align: center;
+    color: #6b4935;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+
+/* ===== СТОРІНКА ДОСТАВКИ ===== */
+
+.delivery-title {
+    text-align: center;
+    color: #6b4935;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+.delivery-icon {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto 12px;
+}
+
+.delivery-container {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.delivery-card {
+    width: 300px;
+    padding: 25px 20px;
+    text-align: center;
+    background-color: #fffaf5;
+    border: 1px solid #eadbd2;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+    box-sizing: border-box;
+}
+
+.delivery-card h2 {
+    color: #6b4935;
+    margin: 5px 0 15px;
+}
+
+.delivery-card p {
+    color: #5b4037;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.delivery-card ul {
+    text-align: left;
+    color: #5b4037;
+    line-height: 1.8;
+    padding-left: 25px;
+}
+
+.delivery-note {
+    font-size: 14px !important;
+    color: #8b6a58 !important;
+    line-height: 1.5;
+}
+
+.delivery-info {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    padding: 30px;
+    text-align: center;
+    background-color: #f3e3d3;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.delivery-info h2 {
+    color: #6b4935;
+    margin-top: 0;
+}
+
+.delivery-info p {
+    color: #5b4037;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.payment-section {
+    max-width: 750px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+.payment-section > h2 {
+    text-align: center;
+    color: #6b4935;
+    margin-bottom: 25px;
+}
+
+.payment-card {
+    background-color: #fffaf5;
+    border: 1px solid #eadbd2;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+}
+
+.payment-card h3 {
+    color: #6b4935;
+    margin-top: 0;
+}
+
+.payment-card p {
+    color: #5b4037;
+    line-height: 1.5;
+}
+
+.payment-note {
+    font-size: 14px;
+    color: #8b6a58 !important;
+}
+
+.delivery-final {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    padding: 35px 25px;
+    text-align: center;
+    background-color: #fffaf5;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+    box-sizing: border-box;
+}
+
+.delivery-final h2 {
+    color: #6b4935;
+    margin-top: 0;
+}
+
+.delivery-final p {
+    color: #5b4037;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* ===== СТОРІНКА КОНТАКТІВ ===== */
+
+.contacts-title {
+    text-align: center;
+    color: #6b4935;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+/* ===== СТОРІНКА ПРО НАС ===== */
+
+.about-title {
+    text-align: center;
+    color: #6b4935;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+/* ===== БЛОКИ СТОРІНКИ ПРО НАС ===== */
+
+.about-intro {
+    max-width: 750px;
+    margin: 0 auto 35px;
+    padding: 30px;
+    text-align: center;
+    background-color: #fffaf5;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+    box-sizing: border-box;
+}
+
+.about-intro h2,
+.about-section h2,
+.about-process h2,
+.about-values h2,
+.about-final h2 {
+    color: #6b4935;
+}
+
+.about-intro h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.about-intro p,
+.about-section p,
+.about-final p {
+    color: #5b4037;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* ===== НАШІ СВІЧКИ ===== */
+
+.about-section {
+    max-width: 750px;
+    margin: 0 auto 40px;
+    padding: 30px;
+    text-align: center;
+    background-color: #f3e3d3;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.about-section h2 {
+    margin-top: 0;
+}
+
+
+/* ===== ПРОЦЕС ===== */
+
+.about-process {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.about-process > h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.process-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.process-card {
+    width: 220px;
+    padding: 25px 20px;
+    text-align: center;
+    background-color: #fffaf5;
+    border: 1px solid #eadbd2;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+    box-sizing: border-box;
+}
+
+.process-number {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8b5e3c;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.process-card h3 {
+    color: #6b4935;
+    margin: 10px 0;
+}
+
+.process-card p {
+    color: #5b4037;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* ===== ЦІННОСТІ ===== */
+
+.about-values {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.about-values > h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.values-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.value-card {
+    width: 280px;
+    padding: 25px 20px;
+    text-align: center;
+    background-color: #fffaf5;
+    border: 1px solid #eadbd2;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+    box-sizing: border-box;
+}
+
+.value-card h3 {
+    color: #6b4935;
+}
+
+.value-card p {
+    color: #5b4037;
+    line-height: 1.5;
+}
+
+
+/* ===== ФІНАЛЬНИЙ БЛОК ===== */
+
+.about-final {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    padding: 35px 25px;
+    text-align: center;
+    background-color: #fffaf5;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+    box-sizing: border-box;
+}
+
+.about-final h2 {
+    margin-top: 0;
+}
+
+.about-final p {
+    margin: 8px 0;
+}
+
+/* ВСТУП */
+
+.contacts-intro {
+    max-width: 750px;
+    margin: 0 auto 35px;
+    padding: 30px;
+    text-align: center;
+    background-color: #fffaf5;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+}
+
+.contacts-intro h2 {
+    color: #6b4935;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.contacts-intro p {
+    color: #5b4037;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+
+/* КАРТКИ КОНТАКТІВ */
+
+.contacts-container {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    width: 250px;
+    padding: 25px 20px;
+    text-align: center;
+
+    background-color: #fffaf5;
+
+    border: 1px solid #eadbd2;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+
+    box-sizing: border-box;
+}
+
+.contact-icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #8b5e3c;
+    font-weight: bold;
+}
+
+.contact-card h2 {
+    color: #6b4935;
+    margin: 5px 0 10px;
+}
+
+.contact-card p {
+    margin: 0;
+}
+
+.contact-card a {
+    color: #8b5e3c;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-card a:hover {
+    color: #c47e64;
+    text-decoration: underline;
+}
+
+
+/* ГРАФІК */
+
+.contacts-hours {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: #f3e3d3;
+    border-radius: 20px;
+
+    box-sizing: border-box;
+}
+
+.contacts-hours h2 {
+    color: #6b4935;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contacts-hours p {
+    color: #5b4037;
+    font-size: 17px;
+    margin: 8px 0;
+}
+
+.contacts-hours .contacts-note {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8b6a58;
+}
+
+
+/* ФІНАЛЬНИЙ БЛОК */
+
+.contacts-final {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    padding: 35px 25px;
+
+    text-align: center;
+
+    background-color: #fffaf5;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+}
+
+.contacts-final h2 {
+    color: #6b4935;
+    margin-top: 0;
+}
+
+.contacts-final p {
+    color: #5b4037;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+/* ===== СТОРІНКА ПРО НАС ===== */
+
+.about-title {
+    text-align: center;
+    color: #6b4935;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+/* ===== КОШИК ===== */
+
+#cart-items {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cart-item {
+    background-color: #fffaf5;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+    text-align: center;
+}
+
+.cart-item h2 {
+    color: #6b4935;
+    margin-top: 0;
+}
+
+.cart-item p {
+    color: #6b5142;
+    font-size: 17px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.quantity button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #8b5e3c;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.quantity button:hover {
+    background-color: #6b4935;
+}
+
+.quantity span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6b4935;
+    min-width: 30px;
+}
+
+.cart-item > button {
+    background-color: #d99b83;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.cart-item > button:hover {
+    background-color: #c47e64;
+}
+
+#cart-total {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f3e3d3;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#cart-total h2 {
+    color: #6b4935;
+    margin: 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cart-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-item h2 {
+    margin: 0;
+}
+
+.cart-item {
+    background: #fffaf7;
+    border: 1px solid #eadbd2;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.cart-item p {
+    margin: 8px 0;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.quantity button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.quantity span {
+    min-width: 20px;
+    text-align: center;
+}
+.clear-cart-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #d99b83;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.clear-cart-button:hover {
+    background-color: #c47e64;
+}
+
+.checkout-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.checkout-button:hover {
+    background-color: #6b4935;
+}
+
+/* ===== ОФОРМЛЕННЯ ЗАМОВЛЕННЯ ===== */
+
+.checkout-title {
+    text-align: center;
+    color: #6b4935;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+.checkout-form {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 30px;
+    background-color: #fffaf5;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+}
+
+.checkout-form h2 {
+    text-align: center;
+    color: #6b4935;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.checkout-form label {
+    display: block;
+    color: #6b4935;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.checkout-form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 18px;
+    border: 1px solid #eadbd2;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #5b4037;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.checkout-form input:focus {
+    outline: none;
+    border-color: #c47e64;
+}
+
+.order-button {
+    display: block;
+    margin: 10px auto 0;
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.order-button:hover {
+    background-color: #6b4935;
+}
+
+/* ===== УСПІШНЕ ЗАМОВЛЕННЯ ===== */
+
+.success-page {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.success-box {
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+    background-color: #fffaf5;
+    padding: 50px 30px;
+    border-radius: 25px;
+    box-shadow: 0 5px 18px rgba(107, 73, 53, 0.10);
+}
+
+.success-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.success-box h1 {
+    color: #6b4935;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.success-box p {
+    color: #5b4037;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.success-button {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.success-button:hover {
+    background-color: #6b4935;
+}
+/* ===== ПЕРЕГЛЯД ЗАМОВЛЕННЯ ===== */
+
+.order-summary {
+    margin-top: 30px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid #eadbd2;
+}
+
+.order-summary h2 {
+    text-align: center;
+    color: #6b4935;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.order-product {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eadbd2;
+}
+
+.order-product img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.order-product h3 {
+    margin: 0 0 5px;
+    color: #6b4935;
+}
+
+.order-product p {
+    margin: 3px 0;
+    font-size: 15px;
+}
+
+.order-total {
+    text-align: right;
+    color: #6b4935;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* ===== ДАНІ ПОКУПЦЯ ===== */
+
+.customer-info {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #fffaf5;
+    border-radius: 15px;
+    border: 1px solid #eadbd2;
+}
+
+.customer-info h3 {
+    color: #6b4935;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.customer-info p {
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+/* ===== СТОРІНКА ВЛАСНИКА ===== */
+
+.admin-title {
+    text-align: center;
+    color: #6b4935;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+.admin-order {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
+
+.admin-order-box {
+    background-color: #fffaf5;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(107, 73, 53, 0.08);
+}
+
+.admin-order-box h2 {
+    text-align: center;
+    color: #6b4935;
+    margin-top: 0;
+}
+
+.admin-order-box h3 {
+    color: #6b4935;
+}
+
+.admin-customer-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #eadbd2;
+    margin: 25px 0;
+}
+
+.admin-customer-info p {
+    margin: 8px 0;
+    color: #5b4037;
+}
+
+.admin-product {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eadbd2;
+}
+
+.admin-product img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.admin-product h3 {
+    margin: 0 0 5px;
+}
+
+.admin-product p {
+    margin: 3px 0;
+}
+
+.admin-total {
+    text-align: right;
+    margin-top: 25px !important;
+}
+
+/* ===== АДАПТАЦІЯ ПІД ТЕЛЕФОН ===== */
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 12px;
+    }
+
+    nav a {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .products {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .product-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .main-product-image {
+        max-width: 220px;
+        height: 220px;
+    }
+
+    .gallery-thumbnails img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .product-card button {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .category-icon {
+        width: 60px;
+    }
+
+}
+
+/* ===== АДАПТАЦІЯ ПІД ПЛАНШЕТ ===== */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .product-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .main-product-image {
+        max-width: 230px;
+        height: 230px;
+    }
+
+    .product-card button {
+        max-width: 280px;
+    }
+
+}

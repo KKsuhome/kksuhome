@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свічки — K&KSU home</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- МЕНЮ -->
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="candles.html">Свічки</a>
+        <a href="accessories.html">Аксесуари</a>
+        <a href="gifts.html">Набори / Подарунки</a>
+        <a href="about.html">Про нас</a>
+        <a href="delivery.html">Доставка та оплата</a>
+        <a href="contacts.html">Контакти</a>
+        <a href="cart.html">🛒 Кошик (<span class="cart-count">0</span>)</a>
+    </nav>
+
+
+    <!-- ЗАГОЛОВОК -->
+    <h1 class="candles-title">
+         <img src="images/candle_image.jpg" alt="Свічка" class="category-icon">
+         Свічки
+    </h1>
+
+
+    <!-- ТОВАРИ -->
+    <div class="products">
+
+        
+        <!-- ПЕРША СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle1"
+         src="images/candle1.jpg"
+         alt="Свічка в склі з квіткою 001"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle1.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle1', 'images/candle1.jpg')">
+
+        <img src="images/candle1-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle1', 'images/candle1-2.jpg')">
+
+        <img src="images/candle1-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle1', 'images/candle1-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка в склі з квіткою 001</h2>
+
+            <p>
+                Свічка в склі з квіткою 001 (200 г),
+                виготовлена з соєвого воску.
+            </p>
+
+            <p>
+                Розмір склянки: 10 см × 10 см
+            </p>
+
+            <p>
+                Аромат: конвалія 🌿
+            </p>
+
+            <p class="price">
+                380 грн
+            </p>
+
+            <button onclick="addToCart('Свічка в склі з квіткою 001', 380, 'images/candle1.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+        <!-- ДРУГА СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle2"
+         src="images/candle2.jpg"
+         alt="Свічка в склі з квіткою (мала) 002"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle2.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle2', 'images/candle2.jpg')">
+
+        <img src="images/candle2-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle2', 'images/candle2-2.jpg')">
+
+        <img src="images/candle2-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle2', 'images/candle2-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка в склі з квіткою (мала) 002</h2>
+
+            <p>
+                Свічка в склі з квіткою (мала) 002 (100 г),
+                виготовлена з соєвого воску.
+            </p>
+
+            <p>
+                Розмір склянки: 6 см × 8 см
+            </p>
+
+            <p>
+                Аромат: конвалія 🌿
+            </p>
+
+            <p class="price">
+                250 грн
+            </p>
+
+            <button onclick="addToCart('Свічка в склі з квіткою (мала) 002', 250, 'images/candle2.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+         <!-- ТРЕТЯ СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle3"
+         src="images/candle3.jpg"
+         alt="Свічка подвійна в склі Vanilla 003"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle3.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle3', 'images/candle3.jpg')">
+
+        <img src="images/candle3-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle3', 'images/candle3-2.jpg')">
+
+        <img src="images/candle3-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle3', 'images/candle3-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка подвійна в склі Vanilla 003</h2>
+
+            <p>
+                Свічка подвійна в склі Vanilla 003 (800 г),
+                виготовлена з гелю та середина з соєвого воску.
+            </p>
+
+            <p>
+                Розмір склянки: 10 см × 10 см
+            </p>
+
+            <p>
+                Аромат: ваніль 🌿
+            </p>
+
+            <p class="price">
+                530 грн
+            </p>
+
+            <button onclick="addToCart('Свічка подвійна в склі Vanilla 003', 530, 'images/candle3.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+        
+         <!-- ЧЕТВЕРТА СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle4"
+         src="images/candle4.jpg"
+         alt="Свічка в склі Autumn mood (colors) 004"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle4.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle4', 'images/candle4.jpg')">
+
+        <img src="images/candle4-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle4', 'images/candle4-2.jpg')">
+
+        <img src="images/candle4-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle4', 'images/candle4-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка в склі Autumn mood (colors) 004</h2>
+
+            <p>
+                Свічка в склі Autumn mood (colors) 004 (330 г),
+                виготовлена з оливкового воску.
+            </p>
+
+            <p>
+                Розмір склянки: 10 см × 10 см
+            </p>
+
+            <p>
+                Аромат: Сандал 🌿
+            </p>
+
+            <p class="price">
+                450 грн
+            </p>
+
+            <button onclick="addToCart('Свічка в склі Autumn mood (colors) 004', 450, 'images/candle4.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+<!-- П'ЯТА СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle5"
+         src="images/candle5.jpg"
+         alt="Свічка в склі Autumn mood (white) 005"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle5.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle5', 'images/candle5.jpg')">
+
+        <img src="images/candle5-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle4', 'images/candle5-2.jpg')">
+
+        <img src="images/candle5-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle5', 'images/candle5-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка в склі Autumn mood (white) 005</h2>
+
+            <p>
+                Свічка в склі Autumn mood (white) 005 (330 г),
+                виготовлена з оливкового воску.
+            </p>
+
+            <p>
+                Розмір склянки: 10 см × 10 см
+            </p>
+
+            <p>
+                Аромат: Сандал 🌿
+            </p>
+
+            <p class="price">
+                450 грн
+            </p>
+
+            <button onclick="addToCart('Свічка в склі Autumn mood (white) 005', 450, 'images/candle5.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+<!-- ШОСТА СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle6"
+         src="images/candle6.jpg"
+         alt="Свічка Гарбузики 006"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle6.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle6', 'images/candle6.jpg')">
+
+        <img src="images/candle6-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle6', 'images/candle6-2.jpg')">
+
+        <img src="images/candle6-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle6', 'images/candle6-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка Гарбузики 006</h2>
+
+            <p>
+                Свічка Гарбузики 006 (100 г),
+                виготовлена з оливкового воску. Використання підсвічника обов'язкове!
+            </p>
+
+            <p>
+                Розмір: 10 см × 5 см
+            </p>
+
+            <p>
+                Аромат: Сандал 🌿
+            </p>
+
+            <p class="price">
+                150 грн
+            </p>
+
+            <button onclick="addToCart('Свічка Гарбузики 006', 150, 'images/candle6.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+        
+<!-- СЬОМА СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle7"
+         src="images/candle7.jpg"
+         alt="Свічка Гарбузики білі (набір з трьох) 007"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle7.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle7', 'images/candle7.jpg')">
+
+        <img src="images/candle7-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle7', 'images/candle7-2.jpg')">
+
+        <img src="images/candle7-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle7', 'images/candle7-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка Гарбузики білі (набір з трьох) 007</h2>
+
+            <p>
+                Свічка Гарбузики білі (набір з трьох) 007 (100 г),
+                виготовлена з оливкового воску. Використання підсвічника обов'язкове!
+            </p>
+
+            <p>
+                Розмір: 3 см × 5 см, 3 см × 3 см, 3 см × 2 см
+            </p>
+
+            <p>
+                Аромат: Сандал 🌿
+            </p>
+
+            <p class="price">
+                150 грн
+            </p>
+
+            <button onclick="addToCart('Свічка Гарбузики білі (набір з трьох) 007', 150, 'images/candle7.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+        
+
+<!-- ВОСЬМА СВІЧКА -->
+        <div class="product-card">
+
+            <div class="product-gallery">
+
+    <img id="main-candle8"
+         src="images/candle8.jpg"
+         alt="Свічка Серце (набір з трьох) 008"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle8.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle8', 'images/candle8.jpg')">
+
+        <img src="images/candle8-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle8', 'images/candle8-2.jpg')">
+
+        <img src="images/candle8-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle8', 'images/candle8-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка Серце (набір з трьох) 008</h2>
+
+            <p>
+                Свічка Серце (набір з трьох) 008 (310 г),
+                виготовлена з оливкового воску. Використання підсвічника обов'язкове!
+            </p>
+
+            <p>
+                Розмір: 10 см × 8 см, 8 см × 6 см, 5 см × 3 см
+            </p>
+
+            <p>
+                Аромат: Сандал 🌿
+            </p>
+
+            <p class="price">
+                280 грн
+            </p>
+
+            <button onclick="addToCart('Свічка Серце (набір з трьох) 008', 280, 'images/candle8.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+        
+<!-- ДЕВ'ЯТА СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle9"
+         src="images/candle9.jpg"
+         alt="Свічка декоративна хвиляста 009 (набір з трьох)"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle9.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle9', 'images/candle9.jpg')">
+
+        <img src="images/candle9-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle9', 'images/candle9-2.jpg')">
+
+        <img src="images/candle9-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle9', 'images/candle9-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка декоративна хвиляста 009 (набір з трьох)</h2>
+
+            <p>
+                Свічка декоративна хвиляста 009 (набір з трьох) (475г, 280г, 115г),
+                виготовлена з оливкового воску.
+            </p>
+
+            <p>
+                Розмір: 10 см × 8 см, 8 см × 6 см, 5 см × 3 см
+            </p>
+
+            <p>
+                Аромат: Сандал 🌿
+            </p>
+
+            <p class="price">
+                800 грн
+            </p>
+
+            <button onclick="addToCart('Свічка декоративна хвиляста (набір з трьох)', 800, 'images/candle9.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+        
+<!-- ДЕСЯТА СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle10"
+         src="images/candle10.jpg"
+         alt="Свічка Ведмедик 010"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle10.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle10', 'images/candle10.jpg')">
+
+        <img src="images/candle10-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle10', 'images/candle10-2.jpg')">
+
+        <img src="images/candle10-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle10', 'images/candle10-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка Ведмедик 010</h2>
+
+            <p>
+                Свічка Ведмедик 010 (50г),
+                виготовлена з оливкового воску.
+            </p>
+
+            <p>
+                Розмір: 4 см × 5 см
+            </p>
+
+            <p>
+                Аромат: Сандал (на вибір) 🌿
+            </p>
+
+            <p class="price">
+                80 грн
+            </p>
+
+            <button onclick="addToCart('Свічка Ведмедик 010', 80, 'images/candle10.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+        
+<!-- ОДИНАДЦЯТА СВІЧКА -->
+        <div class="product-card">
+
+           <div class="product-gallery">
+
+    <img id="main-candle11"
+         src="images/candle11.jpg"
+         alt="Свічка в склі Сніжинка (мала) 011 (120 г)"
+         class="main-product-image">
+
+    <div class="gallery-thumbnails">
+
+        <img src="images/candle11.jpg"
+             alt="Фото 1"
+             onclick="changeProductImage('main-candle11', 'images/candle11.jpg')">
+
+        <img src="images/candle11-2.jpg"
+             alt="Фото 2"
+             onclick="changeProductImage('main-candle11', 'images/candle11-2.jpg')">
+
+        <img src="images/candle11-3.jpg"
+             alt="Фото 3"
+             onclick="changeProductImage('main-candle11', 'images/candle11-3.jpg')">
+
+    </div>
+
+</div>
+
+            <h2>Свічка в склі Сніжинка (мала) 011</h2>
+
+            <p>
+                Свічка в склі Сніжинка (мала) 011 (120 г),
+                виготовлена з оливкового воску.
+            </p>
+
+            <p>
+                Розмір: 6 см × 8 см
+            </p>
+
+            <p>
+                Аромат: Сандал 🌿
+            </p>
+
+            <p class="price">
+                294 грн
+            </p>
+
+            <button onclick="addToCart('Свічка в склі Сніжинка (мала) 011', 294, 'images/candle11.jpg', this)">
+                Додати в кошик
+            </button>
+
+        </div>
+
+   
+    </div>
+
+
+    <script src="script.js">
+        
+    </script>
+
+</body>
+
+</html>
